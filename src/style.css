@@ -509,8 +509,9 @@ header{
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 40px;
   align-items: center;
   justify-content: center;
@@ -520,6 +521,8 @@ header{
   box-shadow: var(--project-box-shadow);
   border-radius: 10px;
   overflow: hidden;
+  width: 350px;
+  min-height: 70vh;
   transition: all 0.2s ease-in-out;
 }
 
