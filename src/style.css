@@ -61,6 +61,7 @@ ul{
 
 header{
   padding: 1rem;
+  min-height: 10%;
   position: fixed;
   top: 0%;
   width: 100%;
@@ -607,7 +608,7 @@ footer p{
   border: none;
   outline: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 24px;
   right: 20px;
   background-color: #333;
   color: white;
